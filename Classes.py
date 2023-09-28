@@ -1,11 +1,5 @@
 import os
 
-def limpar_terminal():
-    os.system("cls")
-
-def parar():
-    os.system("pause")
-
 class Cliente:
     def __init__(self, nome, cpf, saldo=0):
         self.nome = nome
